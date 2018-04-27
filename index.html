@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+
+    <link rel="icon" href="http://icons.iconarchive.com/icons/sykonist/popular-sites/32/Wikipedia-icon.png">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <div class="top-block">
+            <div id="page-title">Wikipedia Viewer</div>
+
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                <img src="https://vignette.wikia.nocookie.net/simpsons/images/d/dd/Wikipedia-logo.svg.png/revision/latest?cb=20100610161747"
+                    alt="wikimage" id="wikilogo" title="Random Wikipedia Entry">
+            </a>
+        </div>
+
+
+        <form id="search-box">
+            <input type="text" id="search-field">
+            <button type="button" id="btn">Search</button>
+        </form>
+
+
+        <ul id="output">
+        </ul>
+
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
